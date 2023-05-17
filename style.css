@@ -3,6 +3,7 @@ body{
     flex-direction: column;
 }
 nav{
+    font-family: 'Roboto Mono', monospace;
     width: 100%;
     height: 6vh;
     /*background-color: #eb3458;*/
