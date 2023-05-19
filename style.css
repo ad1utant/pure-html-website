@@ -104,10 +104,16 @@ p {
     height: 94vh;
 }
 .footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2vh;
     background-color:#273036 ;
     width: 100vw;
     height: 5vh;
-}
+}.nocopyright{
+    margin: 1vh;
+ }
 
 
 
