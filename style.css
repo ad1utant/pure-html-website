@@ -9,6 +9,7 @@ body{
     font-style: normal;
     overflow-y: scroll;
     overflow-x: hidden;
+    overflow: overlay;
 }
 
 nav{
@@ -85,9 +86,6 @@ p {
     color: white;
 
 }
-
-
-
 .projects{
     background-color: white;
     width: 100vw;
@@ -114,47 +112,11 @@ p {
 }.nocopyright{
     margin: 1vh;
  }
-
-
-
-
-
-
-
-
-
-
-/*.home{*/
-/*    display: flex;*/
-/*    background-color: black;*/
-/*}*/
-/*.background_shadow{*/
-/*    background-color: rgba(0,0,0,30%);*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*}*/
-/*.background{*/
-/*    background-image: url("img/background.jpg");*/
-/*    background-size: cover;*/
-/*    width: 100%;*/
-/*    height: 94vh;*/
-/*    filter: blur(4px);*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+::-webkit-scrollbar{
+    width: 2vw;
+    color: #273036;
+    background-color: rgba(0,0,0,0%);
+}::-webkit-scrollbar-thumb {
+     background: red;
+     border-radius: 10px;
+ }
