@@ -49,7 +49,7 @@ nav .item_div{
 nav .item_div:hover{
     transform: scale(1.1);
 }
-.about {
+.home {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,7 +77,7 @@ p {
 .hi{
     font-size: 5vw;
 }
-.about_container{
+.home_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +98,16 @@ p {
     width: 100vw;
     height: 94vh;
 }
-
+.f5thsection{
+    background-color: white;
+    width: 20vw;
+    height: 94vh;
+}
+.footer{
+    background-color:#273036 ;
+    width: 100vw;
+    height: 5vh;
+}
 
 
 
