@@ -117,8 +117,9 @@ p {
     color: #273036;
     background-color: rgba(0,0,0,0%);
 }::-webkit-scrollbar-thumb {
-     background: red;
-     border-radius: 10px;
+     background: white;
+     border-radius: 20px;
+    margin: 1vw;
  }
  html{
      scroll-behavior: smooth;
