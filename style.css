@@ -136,3 +136,15 @@ p {
      flex-direction: column;
 
  }
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.about_title{
+    color: white;
+    margin-top: 12vh;
+    font-size: 5vw;
+}
