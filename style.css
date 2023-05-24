@@ -124,3 +124,15 @@ p {
  html{
      scroll-behavior: smooth;
  }
+
+ .contact_title{
+     margin-top: 12vh;
+     font-size: 5vw;
+ }
+ .contact{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+
+ }

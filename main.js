@@ -8,7 +8,4 @@ while (x>1){
         i++;
         setTimeout(typeWriter, 50);
     }
-}
-
-
-}
+}}
