@@ -9,6 +9,19 @@ function getCurrentSection(scrollPosition){
         }
     }
 }
+function whiteSection(navElement){
+    navElement.style.backgroundColor = 'white';
+    const texts = document.getElementsByClassName('text');
+    for (let i = 0; i < texts.length; i++) {
+        texts[i].style.color = 'black';
+    }
+}
+function blackSection(navElement){
+    const texts = document.getElementsByClassName('text');
+    for (let i = 0; i < texts.length; i++) {
+        texts[i].style.color = 'white';
+    }
+}
 
 
 window.addEventListener('scroll', () => {
@@ -18,14 +31,15 @@ window.addEventListener('scroll', () => {
     console.log(currentSection);
     const navElement = document.getElementById('nav');
     if (currentSection === 'home') {
+        blackSection();
         navElement.style.backgroundColor = '#0099ff';
     } else if (currentSection === 'projects' || currentSection === 'projects_wave') {
-        navElement.style.backgroundColor = 'white';
+        whiteSection(navElement);
     } else if (currentSection === 'contact' || currentSection === 'contact_wave') {
-        navElement.style.backgroundColor = 'white';
-
+        whiteSection(navElement);
     } else if(currentSection === 'about' || currentSection === 'about_wave'){
         navElement.style.backgroundColor = '#ff5500';
+        blackSection();
     }
     navElement.style.transition = 'background-color 0.3s ease-in-out';
 });
