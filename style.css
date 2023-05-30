@@ -7,6 +7,9 @@ body{
     overflow-x: hidden;
     overflow: overlay;
 }
+:root{
+    --scroll-color: white;
+}
 
 nav{
     font-family: 'Roboto Mono', monospace;
@@ -73,11 +76,6 @@ nav .item_div:hover{
     height: 30vw;
     border-radius: 50%;
 }
-
-
-p {
-    text-align: center;
-}
 .hi{
     font-size: 5vw;
 }
@@ -92,9 +90,18 @@ p {
 .projects{
     background-color: white;
     width: 100vw;
-    height: 94vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+.projects_title{
+    font-size: 4vw;
+    padding-top: 12vh;
+}
+
+
 .about{
     background-color: #ff5500;
     width: 100vw;
@@ -121,11 +128,11 @@ p {
     margin: 1vh;
  }
 ::-webkit-scrollbar{
-    width: 2vw;
+    width: 1vw;
     color: #273036;
     background-color: rgba(0,0,0,0%);
 }::-webkit-scrollbar-thumb {
-     background: white;
+     background: var(--scroll-color);
      border-radius: 20px;
     margin: 1vw;
  }
