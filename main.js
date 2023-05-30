@@ -1,4 +1,3 @@
-
 function getCurrentSection(scrollPosition){
     const sections = document.querySelectorAll("section");
     for (const section of sections) {
@@ -22,8 +21,6 @@ function blackSection(navElement){
         texts[i].style.color = 'white';
     }
 }
-
-
 window.addEventListener('scroll', () => {
     const scroll = window.scrollY;
     console.log(scroll);
