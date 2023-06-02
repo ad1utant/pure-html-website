@@ -175,12 +175,30 @@ nav .item_div:hover{
 .rect{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 20vw;
-    height: 50vh;
+    height: 30vw;
     border: black 1px solid;
     border-radius: 5%;
-}
+    }
 .rect_a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
     width: 100%;
+    text-decoration: none;
+    color: black;
+}
+h3{
+    padding-top: 1vh;
+    font-size: 2vw;
+    text-align: center;
+}
+.img_rect{
+    margin-top: 1vh;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 5%;
 }
