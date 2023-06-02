@@ -180,6 +180,7 @@ nav .item_div:hover{
     height: 30vw;
     border: black 1px solid;
     border-radius: 5%;
+    transition: .5s all;
     }
 .rect_a{
     display: flex;
@@ -201,4 +202,7 @@ h3{
     width: 15vw;
     height: 15vw;
     border-radius: 5%;
+}
+.rect:hover{
+    transform: scale(1.05);
 }
