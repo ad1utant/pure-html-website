@@ -143,6 +143,7 @@ nav .item_div:hover{
  .contact_title{
      margin-top: 12vh;
      font-size: 5vw;
+     margin-bottom: 2vw;
  }
  .contact{
      width: 100%;
@@ -206,3 +207,17 @@ h3{
 .rect:hover{
     transform: scale(1.05);
 }
+.data_title{
+    font-size: 2vw;
+    font-weight: bold;
+}.contact_data{
+    font-size: 1vw;
+ }
+ .contact_container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     gap : 10vw;
+     line-height: 6vh;
+ }
