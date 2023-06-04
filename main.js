@@ -23,7 +23,7 @@ function blackSection(navElement){
     for (let i = 0; i < texts.length; i++) {
         texts[i].style.color = 'white';
     }
-    root.style.setProperty('--scroll-color', 'white');
+    root.style.setProperty('--scroll-color', 'white ');
 }
 window.addEventListener('scroll', () => {
     const scroll = window.scrollY;

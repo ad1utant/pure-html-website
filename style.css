@@ -33,20 +33,19 @@ nav .items{
     flex-direction: row;
     gap: 20px;
 }
-nav .item_div{
+.item_div{
     background-color: rgba(0,0,0,10%);
     padding: 3px;
     border-radius: 10%;
     width: 111%;
+    transition: .5s all;
 }
-nav .text {
+.text {
     text-decoration: none;
     color: white;
 }
-nav .item_div{
-    transition: .5s all;
-}
-nav .item_div:hover{
+
+.item_div:hover{
     transform: scale(1.1);
 }
 .home {
@@ -58,6 +57,9 @@ nav .item_div:hover{
     height: 100vh;
     background-color: #0099ff;
     gap: 2vw;
+}
+.hi_description{
+    width: 32vw;
 }
 .rotated_wave{
     transform: rotate(180deg);
@@ -103,6 +105,7 @@ nav .item_div:hover{
 
 
 .about{
+    margin-top: -2px;
     background-color: #ff5500;
     width: 100vw;
     height: 100vh;
@@ -193,7 +196,7 @@ nav .item_div:hover{
     text-decoration: none;
     color: black;
 }
-h3{
+h3{               9
     padding-top: 1vh;
     font-size: 2vw;
     text-align: center;
@@ -220,4 +223,17 @@ h3{
      align-items: center;
      gap : 10vw;
      line-height: 6vh;
- }
+ }.botnav{
+        display: flex;
+        justify-content: right;
+       font-family: 'Roboto Mono', monospace;
+       font-style: normal;
+       font-size: 3vh;
+       width: 100vw;
+       height: 6vh;
+       position: sticky;
+       bottom: 2vh;
+       z-index: 2;
+       opacity: 50%;
+
+   }
