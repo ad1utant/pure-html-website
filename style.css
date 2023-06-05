@@ -157,7 +157,7 @@ nav .items{
 
  }
 .about {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -197,7 +197,7 @@ nav .items{
     text-decoration: none;
     color: black;
 }
-h3{               9
+h3{
     padding-top: 1vh;
     font-size: 2vw;
     text-align: center;
@@ -241,5 +241,4 @@ h3{               9
   .botnav a {
       text-decoration: none;
       color: white;
-      position: block;
   }
