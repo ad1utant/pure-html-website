@@ -129,6 +129,7 @@ nav .items{
     height: 5vh;
 }.nocopyright{
     margin: 1vh;
+    color: rgba(255,255,255,0.3);
  }
 ::-webkit-scrollbar{
     width: 1vw;
@@ -237,3 +238,8 @@ h3{               9
        opacity: 50%;
 
    }
+  .botnav a {
+      text-decoration: none;
+      color: white;
+      position: block;
+  }
