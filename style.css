@@ -224,7 +224,7 @@ h3{
        font-family: 'Roboto Mono', monospace;
        font-style: normal;
        font-size: 3vh;
-       width: 98vw;
+       width: 96vw;
        height: 6vh;
 
        z-index: 2;
@@ -238,7 +238,7 @@ h3{
 .bottomnavigation{
     width: 100vw;
     position: fixed;
-    bottom: 2vh;
+    bottom: 3vh;
     display: flex;
     justify-content: center;
 
@@ -248,5 +248,9 @@ h3{
     border: white 1px solid;
     border-radius: 15px;
     padding: 3vh;
+    transition: .5s all;
  }
 
+.hobby:hover{
+    transform: scale(1.05);
+}

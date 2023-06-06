@@ -42,21 +42,3 @@ window.addEventListener('scroll', () => {
     }
     navElement.style.transition = 'background-color 0.3s ease-in-out';
 });
-
-
-//type writer
-
-let i = 0;
-let txt = 'test';
-function typeWriter() {
-    while (x>1){
-        if (i < txt.length) {
-            document.getElementById("hi").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, 50);
-        }
-    }}
-
-addEventListener("scroll", () => {
-    typeWriter();
-})
