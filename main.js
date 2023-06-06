@@ -16,14 +16,12 @@ function whiteSection(navElement){
     for (let i = 0; i < texts.length; i++) {
         texts[i].style.color = 'black';
     }
-    root.style.setProperty('--scroll-color', 'black');
 }
 function blackSection(navElement){
     const texts = document.getElementsByClassName('text');
     for (let i = 0; i < texts.length; i++) {
         texts[i].style.color = 'white';
     }
-    root.style.setProperty('--scroll-color', 'white ');
 }
 window.addEventListener('scroll', () => {
     const scroll = window.scrollY;

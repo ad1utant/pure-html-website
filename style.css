@@ -3,9 +3,9 @@ body{
     flex-direction: column;
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
-    overflow-y: scroll;
+    overflow-y: overlay;
     overflow-x: hidden;
-    overflow: overlay;
+
 }
 :root{
     --scroll-color: white;
@@ -131,15 +131,6 @@ nav .items{
     margin: 1vh;
     color: rgba(255,255,255,0.3);
  }
-::-webkit-scrollbar{
-    width: 1vw;
-    color: #273036;
-    background-color: rgba(0,0,0,0%);
-}::-webkit-scrollbar-thumb {
-     background: var(--scroll-color);
-     border-radius: 20px;
-    margin: 1vw;
- }
  html{
      scroll-behavior: smooth;
  }
@@ -230,10 +221,9 @@ h3{
        font-family: 'Roboto Mono', monospace;
        font-style: normal;
        font-size: 3vh;
-       width: 100vw;
+       width: 98vw;
        height: 6vh;
-       position: sticky;
-       bottom: 2vh;
+
        z-index: 2;
        opacity: 50%;
 
@@ -242,3 +232,12 @@ h3{
       text-decoration: none;
       color: white;
   }
+.bottomnavigation{
+    width: 100vw;
+    position: sticky;
+    bottom: 2vh;
+    display: flex;
+    justify-content: center;
+
+}
+
